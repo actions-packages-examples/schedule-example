@@ -1,13 +1,13 @@
-name: emom
+# name: emom
 
-on:
-  schedule:
-    - cron: '* * * * *'
+# on:
+#   schedule:
+#    - cron: '* * * * *'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Run a one-line script
-      run: |
-        date "+Last updated on: %Y-%m-%d at %H:%M:%S"
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Run a one-line script
+#       run: |
+#         date "+Last updated on: %Y-%m-%d at %H:%M:%S"
