@@ -1,9 +1,8 @@
-name: fifth-and-sixth
+name: emom
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
-    - cron: '*/6 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   build:
