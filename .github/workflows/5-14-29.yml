@@ -1,10 +1,10 @@
-name: fifth-seventh-ninth
+name: 5-14-29
 
 on:
   schedule:
    - cron: '*/5 * * * *'
-   - cron: '*/7 * * * *'
-   - cron: '*/9 * * * *'     
+   - cron: '*/14 * * * *'
+   - cron: '*/29 * * * *'     
 
 jobs:
   build:
