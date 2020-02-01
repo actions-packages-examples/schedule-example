@@ -1,9 +1,9 @@
-name: 5-14-29
+name: five-nineteen-twenty-nine
 
 on:
   schedule:
    - cron: '*/5 * * * *'
-   - cron: '*/14 * * * *'
+   - cron: '*/19 * * * *'
    - cron: '*/29 * * * *'     
 
 jobs:
