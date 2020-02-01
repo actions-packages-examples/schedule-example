@@ -1,0 +1,14 @@
+name: fifth-and-seventh
+
+on:
+  schedule:
+   - cron: '*/5 * * * *'
+   - cron: '*/7 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a one-line script
+      run: |
+        date "+Last updated on: %Y-%m-%d at %H:%M:%S"
